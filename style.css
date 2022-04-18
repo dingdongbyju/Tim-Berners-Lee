@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding-top: 550px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: aliceblue;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(khaki 0%, rgb(0, 183, 255) 100% );
+    display: table;
+    width: 100%;
+    height: 100%;
+    font-family: 'Akshar', sans-serif;
+
+}
+
+#bio {
+color: black;
+}
+.menu {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+.links {
+    float: left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: 'Akshar', sans-serif;
+    font-size: 20px;
+}
